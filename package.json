@@ -12,6 +12,10 @@
   "author": "",
   "license": "ISC",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2001abhishek/otp-auth-server.git"
+  },
   "dependencies": {
     "@types/bcrypt": "^5.0.2",
     "bcrypt": "^5.1.1",
@@ -31,5 +35,13 @@
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2"
+  },
+  "engines": {
+    "node": ">=14.x <17",
+    "npm": ">=6.x"
+  },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/your-project"
   }
 }
